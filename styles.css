@@ -1,0 +1,440 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Part one */
+
+.main-header{
+    background-color: #9E8C6C1A;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+    text-align: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 91.79%, 0% 100%);
+
+
+    
+}
+
+
+.photo_cv{
+    position: relative;
+    left: 35px;
+    width: 160px;
+    height: 160px;
+    border-radius: 175px;
+    
+}
+
+.circle{
+    position: relative;
+    width: 74px;
+    height: 74px;
+    bottom: 68px;
+    right: 20px;
+}
+
+.main-container{
+    padding: 0 20px 0 20px;
+   gap: 70px;
+}
+
+
+
+.profesion-div p{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #9E8C6C;
+    margin: 25px 0 0 0;
+}
+
+.profesion-div h1{
+    font-family: 'Playfair Display';
+    font-size: 56px;
+    line-height: 46px;
+    font-weight: 900;
+    margin-top: 15px;
+    letter-spacing: -2.17px
+}
+
+button{
+    width: 200px;
+    height: 60px;
+    font-family: "PT Sans Narrow", sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    line-height: 17px;
+    font-weight: 700;
+    margin-top: 32px;
+    background-color: #0699A6;
+    cursor: pointer;
+}
+
+/* Part two */
+
+
+.main-item{
+    margin-top: 25px;
+}
+
+
+.title-item{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0px;
+    color: #011F21;
+    margin: 15px 0px 15px 0;
+
+}
+
+.text-item{
+    font-family: 'Playfair Display';
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0;
+}
+
+.blue-bar{
+    width: 54px;
+    height: 10px;
+    background-color: #0699A6;
+    margin: 40px 0 30px 0; 
+}
+
+.experience-item{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9E8C6C;
+    margin: 10px 0 10px 0;
+}
+
+.time-item{
+    margin: 2px 0 10px 0;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}
+
+.date-item{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+.list-item{
+    margin: 0 0 40px 0;
+}
+
+.item-list{
+    list-style-type: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+}
+
+
+.career-items{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin:0px 0 18px 0;
+    color: #011F21;
+
+}
+
+.career-items span{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0px;
+
+}
+
+.list-items{
+    list-style: none;
+    font-size: 18px;
+}
+
+.link-list{
+    margin-top: 40px;
+}
+
+.item-link{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #0699A6;
+}
+
+/* Part three */
+
+.footer-container{
+    background-color:#9E8C6C1A;
+    margin: 70px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 120px;
+    text-align: center;
+}
+
+
+.div-footer h1{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -1.14px;
+
+}
+
+.div-footer p{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #0699A6;
+
+}
+
+
+.footer-container li{
+    list-style: none;
+}
+
+.social-links ul li{
+    cursor: pointer;
+}
+
+.social-links ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+
+}
+
+
+/* Para table */
+
+
+@media screen and (min-width: 768px) {
+
+    body{
+        width: 100%;
+        height: auto;
+    }
+
+    .main-header,
+    .main-container,
+    .footer-container{
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    .profesion-div h1{
+        font-size: 86px;
+        letter-spacing: -2.17px;
+        line-height: 76px;
+    }
+
+    .profesion-div p{
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+    .title-item{
+        margin-top: 50px;
+        font-size: 32px;
+    }
+
+    .text-item{
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0;
+    }
+
+    .photo_cv{
+        position: relative;
+        left: 50px;
+        width: 200px;
+        height: 200px;
+        border-radius: 175px;
+    
+}
+
+    .circle{
+        position: relative;
+        width: 100px;
+        height: 100px;
+        bottom: 140px;
+        right: 40px;
+}
+
+.experience-item{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #9E8C6C;
+    margin: 10px 0 10px 0;
+}
+
+.time-item{
+    margin: 2px 0 10px 0;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+}
+
+
+.date-item{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    
+}
+
+.item-list{
+    list-style-type: none;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+}
+
+.career-items span{
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0px;
+
+}
+
+.list-items{
+    list-style: none;
+    font-size: 20px;
+}
+
+
+.item-link{
+    font-family: 'PT Sans Narrow';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: #0699A6;
+}
+
+
+}
+
+@media screen and (min-width: 1440px) {
+
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    } 
+
+
+    .main-header {
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        padding: 0;
+        text-align: left;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    }
+
+    .photo_cv {
+        position: relative;
+        width: 330px;
+        height: 330px;
+        left: 0;
+
+    }
+
+    .circle {
+        position: relative;
+        width: 130px;
+        height: 130px;
+        bottom: -30px;
+        right: 110px;
+    }
+
+    .profesion-div .name{
+        width: 300px;
+        font-size: 100px;
+        line-height: 100px;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .query1440 {
+        width: 70%;
+    }
+
+    .query1440beta {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .blue-bar{
+    width: 0;
+    height: 0px;
+    }
+
+}
+
